@@ -1,0 +1,28 @@
+header {
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+    gap: 20px;
+    /*x יישור אלמנטים בגריד על ציר ה */
+    justify-content: center;
+    /*y יישור אלמנטים בגריד על ציר ה */
+    align-items: top;
+
+    img {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        text-align: center;
+
+        li:not(:last-child) {
+            border-left: 1px solid #ee87a9;
+        }
+    }
+
+}

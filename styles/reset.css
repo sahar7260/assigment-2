@@ -65,13 +65,12 @@ ul li:hover {
 }
 
 footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
   width: 100%;
-  text-align: center;
-  padding: 1rem;
-  color: #ee87a9;
+    text-align: center;
+    padding:  1.25rem;
+    clear: both;
+     color: #ee87a9;
+  margin: top 3rem; ;
   
 }
 
@@ -104,3 +103,10 @@ footer {
   box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
 margin-top: -10rem
 }
+
+.logo-image
+{ 
+    width: 6rem;
+}
+
+
