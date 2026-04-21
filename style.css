@@ -1,0 +1,106 @@
+html {
+  font-size: 20px;
+}
+
+h1{
+    font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+
+  color: #4e342e; 
+  letter-spacing: 0.125rem;
+
+  margin: 1.5rem 0;
+
+  text-shadow: 0.125rem 0.125rem 0.5rem rgba(200, 90, 140, 0.7);
+
+  font-family: Arial, sans-serif;
+}
+
+body{
+    background-color: #e4cfbe;
+    color:#5d4037
+    
+}
+
+.title{
+    color:#4e342e;
+}
+
+nav a {
+  color: #ee87a9;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #f9aacb;
+  text-decoration: underline;
+}
+
+ul li {
+  list-style: none;
+  padding: 10px;
+  margin: 10px 0;
+
+  
+
+ box-shadow: 0 3px 12px rgba(220, 120, 160, 0.35);
+
+  transition: 0.3s;
+}
+
+ul li:hover {
+  box-shadow:
+    0 4px 18px rgba(220, 120, 160, 0.5),
+    0 0 30px rgba(220, 120, 160, 0.7);
+}
+.link {
+  color: #5d4037;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: #f9aacb;
+  text-decoration: underline;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
+  color: #ee87a9;
+  
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.gallery img {
+  width: 10rem;
+  height: 10rem;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+  transition: 0.3s;
+}
+
+.gallery img:hover {
+  transform: scale(1.1);
+}
+
+.team-hero img {
+  width: 20rem;
+  max-width: 30rem;
+  display: block;
+  margin: 1.5rem auto;
+  border-radius: 1rem;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+margin-top: -10rem
+}
