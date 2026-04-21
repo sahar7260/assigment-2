@@ -98,15 +98,38 @@ footer {
   width: 20rem;
   max-width: 30rem;
   display: block;
-  margin: 1.5rem auto;
+  margin: 0.5rem auto 3rem 12rem; 
   border-radius: 1rem;
   box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
-margin-top: -10rem
+  margin-top: -20rem;
 }
+
+
+
 
 .logo-image
 { 
     width: 6rem;
 }
 
+table {
+  border-collapse: collapse;
+  width: 30rem;
+  text-align: center;
+  margin: 0;
+}
+
+th, td {
+  border: 0.06rem solid #5d4037;
+  padding: 0.8rem;
+}
+
+
+
+
+td:hover{
+    box-shadow: 0px 0px 65px rgba(220, 120, 160, 0.5);
+    transition: all 0.3s ease;
+
+}
 
