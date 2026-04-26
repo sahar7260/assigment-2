@@ -1,5 +1,5 @@
 html {
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 h1{
@@ -17,9 +17,9 @@ h1{
   font-family: Arial, sans-serif;
 }
 
-body{
+body {
     background-color: #e4cfbe;
-    color:#5d4037
+    color:#5d4037;
     
 }
 
@@ -35,24 +35,25 @@ nav a {
 nav a:hover {
   color: #f9aacb;
   text-decoration: underline;
+  text-shadow: 0 0 0.3125rem rgba(249, 170, 203, 0.5);
+  transition: all 0.3s ease;
 }
 
 ul li {
   list-style: none;
-  padding: 10px;
-  margin: 10px 0;
+  padding: 0.625rem;
+  margin: 0.625rem 0;
 
   
-
- box-shadow: 0 3px 12px rgba(220, 120, 160, 0.35);
+ box-shadow: 0 0.1875rem 0.75rem rgba(220, 120, 160, 0.35);
 
   transition: 0.3s;
 }
 
 ul li:hover {
   box-shadow:
-    0 4px 18px rgba(220, 120, 160, 0.5),
-    0 0 30px rgba(220, 120, 160, 0.7);
+    0 0.25rem 1.125rem rgba(220, 120, 160, 0.5),
+    0 0 1.875rem rgba(220, 120, 160, 0.7);
 }
 .link {
   color: #5d4037;
@@ -62,16 +63,18 @@ ul li:hover {
 .link:hover {
   color: #f9aacb;
   text-decoration: underline;
+  text-shadow: 0 0 0.3125rem rgba(249, 170, 203, 0.5);
+  transition: all 0.3s ease;
+  
 }
 
 footer {
   width: 100%;
-    text-align: center;
-    padding:  1.25rem;
-    clear: both;
-     color: #ee87a9;
-  margin: top 3rem; ;
-  
+  text-align: center;
+  padding:  1.25rem;
+  clear: both;
+  color: #ee87a9;
+  margin-top: 3rem;  
 }
 
 .gallery {
@@ -85,8 +88,8 @@ footer {
   width: 10rem;
   height: 10rem;
   object-fit: cover;
-  border-radius: 10px;
-  box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+  border-radius: 0.625rem;
+  box-shadow: 0 0.1875rem 0.625rem rgba(0,0,0,0.15);
   transition: 0.3s;
 }
 
@@ -98,13 +101,11 @@ footer {
   width: 20rem;
   max-width: 30rem;
   display: block;
-  margin: 0.5rem auto 3rem 12rem; 
+  margin: 0.5rem auto 3rem 10rem; 
   border-radius: 1rem;
   box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
   margin-top: -20rem;
 }
-
-
 
 
 .logo-image
@@ -127,8 +128,8 @@ th, td {
 
 
 
-td:hover{
-    box-shadow: 0px 0px 65px rgba(220, 120, 160, 0.5);
+tr:hover{
+    box-shadow: 0 0 1.25rem rgba(220, 120, 160, 0.5);
     transition: all 0.3s ease;
 
 }

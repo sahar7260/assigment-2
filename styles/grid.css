@@ -1,11 +1,9 @@
 header {
     display: grid;
     grid-template-columns: 1fr 8fr;
-    gap: 20px;
-    /*x יישור אלמנטים בגריד על ציר ה */
+    gap: 1.25rem; 
     justify-content: center;
-    /*y יישור אלמנטים בגריד על ציר ה */
-    align-items: top;
+    align-items: start;
 
     img {
         width: 50%;
@@ -21,8 +19,7 @@ header {
         text-align: center;
 
         li:not(:last-child) {
-            border-left: 1px solid #ee87a9;
+            border-left: 0.0625rem solid #ee87a9;
         }
     }
-
 }
